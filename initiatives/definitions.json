@@ -1,0 +1,20 @@
+[
+  {
+    "policyDefinitionId": "subscriptions/dd42e208-0d56-40ad-acfd-725d61b861d0/providers/Microsoft.Authorization/policyDefinitions/corp-allowed-locations",
+    "policyDefinitionReferenceId": "allowedLocations",
+    "parameters": {
+      "allowedLocations": {
+        "value": "[parameters('allowedLocations')]"
+      }
+    }
+  },
+  {
+    "policyDefinitionId": "subscriptions/dd42e208-0d56-40ad-acfd-725d61b861d0/providers/Microsoft.Authorization/policyDefinitions/corp-required-tag",
+    "policyDefinitionReferenceId": "requiredTag",
+    "parameters": {
+      "tagName": {
+        "value": "[parameters('requiredTagName')]"
+      }
+    }
+  }
+]

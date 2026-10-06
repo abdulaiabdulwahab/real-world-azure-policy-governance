@@ -1,0 +1,14 @@
+{
+  "allowedLocations": {
+    "type": "Array",
+    "metadata": {
+      "displayName": "Approved Azure regions"
+    }
+  },
+  "requiredTagName": {
+    "type": "String",
+    "metadata": {
+      "displayName": "Required governance tag"
+    }
+  }
+}

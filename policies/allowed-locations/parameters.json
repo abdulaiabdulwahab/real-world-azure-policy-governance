@@ -1,0 +1,10 @@
+{
+  "allowedLocations": {
+    "type": "Array",
+    "metadata": {
+      "displayName": "Allowed locations",
+      "description": "Azure regions approved by the organization",
+      "strongType": "location"
+    }
+  }
+}
